@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:flutter_app/deviceinfo/devicesinfo.dart';
 import 'package:flutter_app/layout/LayoutApp.dart';
 import 'package:flutter_app/layout/MaterialApp.dart';
 
-void main() => runApp(new LayoutApp());
+//void main() => runApp(new LayoutApp());
 
 //void main() => runApp(new Center(
 //  child: new Text(
@@ -14,6 +15,7 @@ void main() => runApp(new LayoutApp());
 
 //void main() => runApp(materialApp);
 
+void main() => runApp(new DeviceInfoApp());
 
 class DefaultApp extends StatelessWidget {
 // This widget is the root of your application.
