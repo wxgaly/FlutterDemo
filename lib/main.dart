@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:flutter_app/animate/AnimatedListApp.dart';
+import 'package:flutter_app/appbar/appbar.dart';
 import 'package:flutter_app/deviceinfo/devicesinfo.dart';
 import 'package:flutter_app/layout/LayoutApp.dart';
 import 'package:flutter_app/layout/MaterialApp.dart';
+import 'package:flutter_app/list/SlideApp.dart';
 
+//void main() => runApp(DefaultApp());
+//void main() => runApp(TodoApp());
 //void main() => runApp(new LayoutApp());
 
 //void main() => runApp(new Center(
@@ -15,7 +20,17 @@ import 'package:flutter_app/layout/MaterialApp.dart';
 
 //void main() => runApp(materialApp);
 
-void main() => runApp(new DeviceInfoApp());
+/// device info app
+//void main() => runApp(new DeviceInfoApp());
+
+/// animatedlist
+//void main() => runApp(animatedListSample);
+
+/// appbar
+//void main() => runApp(appbar);
+
+/// slideapp
+void main() => runApp(slideApp);
 
 class DefaultApp extends StatelessWidget {
 // This widget is the root of your application.
