@@ -3,6 +3,7 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter_app/animate/AnimatedListApp.dart';
 import 'package:flutter_app/appbar/appbar.dart';
 import 'package:flutter_app/deviceinfo/devicesinfo.dart';
+import 'package:flutter_app/io/PathProviderApp.dart';
 import 'package:flutter_app/layout/LayoutApp.dart';
 import 'package:flutter_app/layout/MaterialApp.dart';
 import 'package:flutter_app/list/SlideApp.dart';
@@ -30,7 +31,10 @@ import 'package:flutter_app/list/SlideApp.dart';
 //void main() => runApp(appbar);
 
 /// slideapp
-void main() => runApp(slideApp);
+//void main() => runApp(slideApp);
+
+/// path provider app
+void main() => runApp(pathApp);
 
 class DefaultApp extends StatelessWidget {
 // This widget is the root of your application.
