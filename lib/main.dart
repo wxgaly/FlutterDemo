@@ -24,7 +24,7 @@ import 'package:flutter_app/list/SlideApp.dart';
 //void main() => runApp(materialApp);
 
 /// device info app
-//void main() => runApp(new DeviceInfoApp());
+void main() => runApp(new DeviceInfoApp());
 
 /// animatedlist
 //void main() => runApp(animatedListSample);
@@ -33,7 +33,7 @@ import 'package:flutter_app/list/SlideApp.dart';
 //void main() => runApp(appbar);
 
 /// slideapp
-void main() => runApp(slideApp);
+//void main() => runApp(slideApp);
 
 /// path provider app
 //void main() => runApp(pathApp);
@@ -233,8 +233,8 @@ class RandomWordsState extends State<RandomWords> {
         style: _biggerFont,
       ),
       trailing: new Icon(
-        alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.red : null,
+        alreadySaved ? Icons.access_alarms : Icons.favorite_border,
+        color: alreadySaved ? Colors.green : null,
       ),
       onTap: () {
         setState(() {
